@@ -2,4 +2,13 @@ export const refs = {
   article: document.querySelector('#article'),
   spanSize: document.querySelector('#size'),
   readerTools: document.querySelector('.reader-tools'),
+
+  clockSpan: document.querySelector('#clock'),
+  todaySpan: document.querySelector('#today'),
+
+  greetingTitle: document.querySelector('#greeting'),
+
+  left: document.querySelector('#left'),
+  stayBtn: document.querySelector('#stay'),
+  stayText: document.querySelector('#redirect'),
 };
