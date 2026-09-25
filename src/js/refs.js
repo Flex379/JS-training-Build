@@ -11,4 +11,9 @@ export const refs = {
   left: document.querySelector('#left'),
   stayBtn: document.querySelector('#stay'),
   stayText: document.querySelector('#redirect'),
+
+  notifyBtn: document.querySelector('#notify'),
+  msg: document.querySelector('#msg'),
+
+  label: document.querySelector('#label'),
 };

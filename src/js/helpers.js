@@ -8,3 +8,9 @@ export function apply(size) {
 
   saveToLS(STORAGE_KEYS.FONT_SIZES, size);
 }
+
+export function delay(ms) {
+  return new Promise(res => {
+    setTimeout(res, ms);
+  });
+}
